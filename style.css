@@ -16,13 +16,13 @@ body{
 }
 .header{
     width: 100%;
-    padding-top: 30px;
+    padding-top: 4%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    margin: 2%;
+    margin-bottom: 2%;
 
 }
 .header_inner{
@@ -35,10 +35,10 @@ body{
     font-weight: 700;
     color: #d9aed2;
     text-shadow: 1px 1px 1px #100f16, 2px 2px 5px #01183c;
-    margin-top: -3%;
+    transform: translate(8px, -14px);
     margin-left: 2%;
 }
-.nav{
+.nav, .clearfix{
     font-size: 18px;
     text-transform: uppercase;
     margin-right: 5%;
@@ -90,8 +90,8 @@ body{
 .n{
     margin-top: -5%;
     max-width: 100%;
-    height: auto; 
-
+    height: auto;
+    float: right;
 }
 main{
     font-family: 'Merriweather', serif;
@@ -166,12 +166,15 @@ p{
         display: none;
         height: auto;
     }
+    .clearfix{
+        display: none;
+    }
 }
 @media only screen and (max-width : 480px) {
     nav{
         border-bottom: 0;
     }
-    .nav{
+    nav ul{
         display: none;
         height: auto;
     }
@@ -191,14 +194,33 @@ p{
         right: 15px;
         top: 10px;
     }
+    .header_logo{
+        font-size: 20px;
+        font-weight: 700;
+        color: #d9aed2;
+        text-shadow: 1px 1px 1px #100f16, 2px 2px 5px #01183c;
+        transform: translate(8px, -44px);
+        margin-left: 2%;
+    }
+    .n{
+        transform: translate(30px, -25px);
+    }
 }
 @media only screen and (max-width : 320px) {
-    .nav{
+    nav li{
         display: block;
         float: none;
         width: 100%;
     }
-    .nav a {
+    nav li a {
         border-bottom: 1px solid #576979;
+    }
+    .header_logo{
+        font-size: 20px;
+        font-weight: 700;
+        color: #d9aed2;
+        text-shadow: 1px 1px 1px #100f16, 2px 2px 5px #01183c;
+        transform: translate(8px, -54px);
+        margin-left: 2%;
     }
 }
