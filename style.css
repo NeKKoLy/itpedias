@@ -33,8 +33,8 @@ body{
 .header_logo{
     font-size: 30px;
     font-weight: 700;
-    color: #ecd5d5e1;
-    text-shadow: 2px 1px 1px #1118adfd, 2px 2px 5px #50052de1;
+    color: #f94a7f;
+    text-shadow: 1px 1px 1px #100f16, 2px 2px 5px #01183c;
     margin-top: -3%;
     margin-left: 2%;
 }
@@ -48,8 +48,8 @@ body{
     vertical-align: top;
     margin: 0 15px;
     position: relative;
-    color: #ffbaba;
-    text-shadow: 2px 1px 1px #19d9d3c2, 2px 2px 5px #50052de1;
+    color: #d9aed2;
+    text-shadow: 1px 1px 1px #a2055e, 2px 2px 5px #E7D8EF;
     text-decoration: none;
     transition: color .2s linear;
     line-height: 1;
@@ -96,7 +96,7 @@ body{
 main{
     font-family: 'Merriweather', serif;
     position:relative;
-    color: #271502;
+    color: #093b46;
     background: rgba(254, 242, 255, 0.884);
     padding: 4%;
     border-radius: 30px;
