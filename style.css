@@ -158,6 +158,15 @@ p{
     color: #000000;
     text-shadow: #381a34af 0px 1px 1px;
 }
+@media screen {
+    #pull{
+        display: block;
+        float: none;
+        width: 100%;
+        display: none;
+        height: auto;
+    }
+}
 @media only screen and (max-width : 480px) {
     nav{
         border-bottom: 0;
