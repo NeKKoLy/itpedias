@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/фон1.jpg);
+    background-image: url(images/4.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -22,8 +22,8 @@ body{
     left: 0;
     right: 0;
     z-index: 1000;
-    margin-bottom: 2%;
-
+    margin-bottom: 0%;
+    background-color: rgba(163, 164, 165, 0.587);
 }
 .header_inner{
     display: flex;
@@ -33,23 +33,24 @@ body{
 .header_logo{
     font-size: 30px;
     font-weight: 700;
-    color: #d9aed2;
-    text-shadow: 1px 1px 1px #100f16, 2px 2px 5px #01183c;
+    color: #d6d0c6;
+    text-shadow: 2px 2px 1px #000000, 4px 3px 3px #d9dfeaae;
     transform: translate(8px, -14px);
     margin-left: 2%;
 }
 .nav, .clearfix{
-    font-size: 18px;
+    font-size: 22px;
     text-transform: uppercase;
-    margin-right: 5%;
+    margin-right: 0%;
+    text-align: right;
 }
 .nav_link{
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
     position: relative;
-    color: #d9aed2;
-    text-shadow: 1px 1px 1px #a2055e, 2px 2px 5px #E7D8EF;
+    color: #d6d0c6;
+    text-shadow: 1px 1px 1px #000000, 2px 2px 3px #fbf4c1, 1px 0px 0px #000000;
     text-decoration: none;
     transition: color .2s linear;
     line-height: 1;
@@ -88,21 +89,29 @@ body{
 }
 
 .n{
-    margin-top: -5%;
+    transform: translateY(-30%);
+    margin-right: 1%;
+    padding-left: 3%;
     max-width: 100%;
-    height: auto;
+    height: 9%;
     float: right;
+    width: 9%;
 }
 main{
-    font-family: 'Merriweather', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
     position:relative;
-    color: #093b46;
-    background: rgba(254, 242, 255, 0.884);
+    color: #1f0d05;
+    background: #d4d4cb;
     padding: 4%;
     border-radius: 30px;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
     margin: 9%;
+    margin-top: 11%;
+    text-align: justify;
+    text-shadow: #4e494979 1px 0px 0px;
+    font-size: 17px;
+
 }
 .haker{
     margin: 10px auto 20px;
@@ -156,7 +165,7 @@ p{
 .vid{
     text-decoration: none;
     color: #000000;
-    text-shadow: #381a34af 0px 1px 1px;
+    text-shadow: #ffffff 1px 0px 0px, #655858a1 0px 0px 5px;
 }
 @media screen {
     #pull{
